@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from icloudvid.com/administrator/?go=register by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Aug 2020 15:49:54 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Control Panel - iCloudViD</title>
+
+     <link rel="icon" href="../../ezuce.com/media/uploads/Cloud-Economies.png" type="image/png">
+
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/sweetalert.css">
+    <link rel="stylesheet" href="../assets/vendor/datatables/datatables.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <script src="../assets/js/jquery.min.js"></script>
+    	</head>
+
+<body class="bg-light">
+        <nav class="navbar container navbar-expand-lg navbar-dark fixed-top bg-dark">
+     <img src="../../ezuce.com/media/uploads/Cloud-Economies.png" width="30px">  	&nbsp;   <a class="navbar-brand" href="index.html">iCloudViD - Member Area</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">
+                        <i class="fa fa-home"></i>
+                        <span class="ml-1">Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        <i class="fa fa-sign-in"></i>
+                        <span class="ml-1">Login</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index4a35.html?go=register">
+                        <i class="fa fa-user-plus"></i>
+                        <span class="ml-1">Register</span>
+                    </a>
+                </li>                
+                            </ul>
+        </div>
+    </nav>
+    <div class="container bg-white mt-5 mb-3 p-3 pb-5 rounded box-shadow"><div class="row">
+    <div class="col-12 col-md-6 col-lg-4 mx-auto">
+        <h1 class="h3 my-3 text-center">Register</h1>
+              <!--  <form action="https://icloudvid.com/administrator/register.php" method="post" class="needs-validation" novalidate>
+            <div class="form-group">
+                <label for="username">Name</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Your name" required>
+                <div class="invalid-feedback">Must be filled!</div>
+            </div>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="user" name="user" class="form-control" placeholder="Your username" required>
+                <div class="invalid-feedback">Must be filled!</div>
+            </div>
+            <div class="form-group">
+                <label for="username">Email</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Your email" required>
+                <div class="invalid-feedback">Must be filled!</div>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" class="form-control" placeholder="Your password" onchange="if($(this).val() === $('#retype_password').val()) $('#retype_password').removeClass('is-invalid').addClass('is-valid'); else $('#retype_password').removeClass('is-valid').addClass('is-invalid');" required>
+                <div class="invalid-feedback">Must be filled!</div>
+            </div>
+            <div class="form-group">
+                <label for="password">Confirm Password</label>
+                <input type="password" id="retype_password" name="retype_password" class="form-control" placeholder="Confirm Password" onchange="if($(this).val() !== $('#password').val()) $(this).removeClass('is-valid').addClass('is-invalid'); else $(this).removeClass('is-invalid').addClass('is-valid');" required>
+                <div class="invalid-feedback">Must be filled!</div>
+            </div>
+            <div class="form-group text-center">
+                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+                <input type="hidden" name="action" value="validate_captcha">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="https://icloudvid.com/administrator/" class="btn btn-block btn-secondary login-button">
+                            <i class="fa fa-arrow-left"></i><span class="ml-2">Login</span>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <button type="submit" name="submit" class="btn btn-block btn-success">
+                            <i class="fa fa-check"></i><span class="ml-2">Register</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>  -->
+    </div>
+</div>
+</div>
+<footer class="text-muted mb-3">
+    <div class="container">
+        <div class="row">
+         
+            <div class="col-12 py-2 text-center">&copy; 2020 iCloudViD.com</div>
+        </div>
+    </div>
+</footer>
+<div class="modal fade" id="modalUploadSub" tabindex="-1" role="dialog" aria-labelledby="modalUploadSubLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalUploadSubLabel">Upload Subtitle</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="subRef">
+                <form id="frmUploadSub" method="post" enctype="multipart/form-data">
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="uploadSubFile" name="uploadSubFile">
+                        <label class="custom-file-label" for="uploadSubFile">Choose file</label>
+                    </div>
+                </form>
+                <div id="upsProgress" class="progress mt-2 d-none">
+                    <div id="uploadSubProgress" class="progress-bar active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                        <span class="sr-only">0%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button type="button" id="btnUploadSub" class="btn btn-primary" disabled>Upload Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/js/popper.min.js" defer></script>
+<script src="../assets/js/bootstrap.min.js" defer></script>
+<script src="../assets/js/sweetalert.min.js" defer></script>
+<script src="../assets/vendor/datatables/datatables.min.js" defer></script>
+<script>
+    jQuery(document).ready(function($) {
+        $('[data-toggle="tooltip"]').tooltip();
+        $('[data-toggle="popover"]').popover({
+            container: 'body',
+            placement: 'top',
+            html: true
+        });
+    });
+    (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+            var forms = document.getElementsByClassName('needs-validation');
+            var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(e) {
+                    if (form.checkValidity() === false) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+</script>
+<script src="../assets/js/scob.js" defer></script>
+<!--<script>(function(){"use strict";var devtools={open:false,orientation:null};var threshold=160;var emitEvent=function(state,orientation){window.dispatchEvent(new CustomEvent("devtoolschange",{detail:{open:state,orientation:orientation}}))};setInterval(function(){var widthThreshold=window.outerWidth-window.innerWidth>threshold;var heightThreshold=window.outerHeight-window.innerHeight>threshold;var orientation=widthThreshold?"vertical":"horizontal";if(!(heightThreshold&&widthThreshold)&&(window.Firebug&&window.Firebug.chrome&&window.Firebug.chrome.isInitialized||widthThreshold||heightThreshold)){if(!devtools.open||devtools.orientation!==orientation){emitEvent(true,orientation)}devtools.open=true;devtools.orientation=orientation}else{if(devtools.open){emitEvent(false,null)}devtools.open=false;devtools.orientation=null}},500);window.addEventListener("devtoolschange",function(e){if(e.detail.open){location.href="https://google.com"}})})();</script>-->
+</body>
+
+
+<!-- Mirrored from icloudvid.com/administrator/?go=register by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Aug 2020 15:49:54 GMT -->
+</html>

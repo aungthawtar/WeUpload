@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from icloudvid.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Aug 2020 15:49:41 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Video Bypass Tools - weupload</title>
+    <meta name="description" content="This tool can load videos with resolutions of 144p, 250p, 360p, 480p, 720p, 1080p, 2k and 4k.">
+
+    <!-- facebook -->
+    <meta name="og:sitename" content="weupload">
+    <meta name="og:title" content="Video Bypass Tools - weupload">
+    <meta name="og:description" content="This tool can load videos with resolutions of 144p, 250p, 360p, 480p, 720p, 1080p, 2k and 4k.">
+    <meta name="og:type" content="website">
+    <!--<meta name="og:image" content="">-->
+
+	<!-- twitter -->
+    <meta name="twitter:title" content="Video Bypass Tools - weupload">
+    <meta name="twitter:description" content="This tool can load videos with resolutions of 144p, 250p, 360p, 480p, 720p, 1080p, 2k and 4k.">
+    <!--<meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="">-->
+    
+    <link rel="icon" href="../ezuce.com/media/uploads/Cloud-Economies.png" type="image/png">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="assets/js/jquery.min.js"></script>
+    	    </head>
+
+<body class="bg-dark">
+        <nav class="navbar container navbar-expand-lg navbar-dark fixed-top bg-dark">
+     <img src="#" width="30px">  	&nbsp; <a class="navbar-brand" href="index.html"><font face="georgia">weupload </font></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        <i class="fa fa-home"></i>
+                        <span class="ml-1">Home</span>
+                    </a>
+                </li>
+              <!--  <li class="nav-item">
+                    <a class="nav-link hide" href="https://weupload.com/sharer.php">
+                        <i class="fa fa-google"></i>
+                        <span class="ml-1">Bypass Limit</span>
+                    </a>
+                </li> -->
+                <!-- <li class="nav-item">
+                    <a class="nav-link hide" href="administrator/index.html">
+                        <i class="fa fa-user"></i>
+                        <span class="ml-1">
+                        Login                        </span>
+                    </a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+    <div class="container bg-white mt-5 mb-3 p-3 pb-5 rounded box-shadow">    <div class="row">
+        <div class="col">
+          <!--  <div class="header-title text-center my-3">
+                <h2>weupload</h2>
+            </div>
+            <p class="text-center">This tool can load videos with resolutions of 144p, 250p, 360p, 480p, 720p, 1080p, 2k and 4k.</p> -->
+            <form id="frm" action="https://weupload.xyz/" method="post">
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Main Video</span>
+                        </div>
+                        <select name="host" class="form-control" required><option value="">-- Select Host --</option><option value="anonfile" >AnonFile</option><option value="bayfiles" >BayFiles</option><option value="blogger" >Blogger</option><option value="clicknupload" >Clicknupload</option><option value="clipwatching" >ClipWatching</option><option value="direct" >Direct Link</option><option value="dropbox" >Dropbox</option><option value="facebook" >Facebook</option><option value="fembed" >Fembed</option><option value="filerio" >Filerio</option><option value="gdrive" selected>Google Drive</option><option value="gofile" >Gofile</option><option value="googlephotos" >Google Photos</option><option value="gounlimitedto" >GoUnlimited</option><option value="hxfile" >HxFile</option><option value="indishare" >Indishare</option><option value="mixdropto" >MixDrop.to</option><option value="mp4upload" >mp4upload</option><option value="okru" >OK.ru</option><option value="onedrive" >OneDrive</option><option value="racaty" >Racaty</option><option value="senditcloud" >Sendit.cloud</option><option value="solidfiles" >Solidfiles</option><option value="streamable" >Streamable</option><option value="streamtape" >Streamtape</option><option value="upstream" >UpStream</option><option value="uqload" >Uqload</option><option value="videobin" >Videobin</option><option value="vidlox" >Vidlox</option><option value="vidoza" >Vidoza</option><option value="vupto" >VUP.to</option><option value="youtube" >Youtube</option></select>                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">https://drive.google.com/file/d/</span>
+                        </div>
+                        <input type="text" id="id" name="id" class="form-control" placeholder="Main Video ID" value="" onblur="getVideoId(this)" required>
+                        <div class="input-group-append">
+                            <span class="input-group-text">/view</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Alternative Video</span>
+                        </div>
+                        <select name="ahost" class="form-control" ><option value="">-- Select Host --</option><option value="anonfile" >AnonFile</option><option value="bayfiles" >BayFiles</option><option value="blogger" >Blogger</option><option value="clicknupload" >Clicknupload</option><option value="clipwatching" >ClipWatching</option><option value="direct" >Direct Link</option><option value="dropbox" >Dropbox</option><option value="facebook" >Facebook</option><option value="fembed" >Fembed</option><option value="filerio" >Filerio</option><option value="gdrive" >Google Drive</option><option value="gofile" >Gofile</option><option value="googlephotos" >Google Photos</option><option value="gounlimitedto" >GoUnlimited</option><option value="hxfile" >HxFile</option><option value="indishare" >Indishare</option><option value="mixdropto" >MixDrop.to</option><option value="mp4upload" >mp4upload</option><option value="okru" >OK.ru</option><option value="onedrive" >OneDrive</option><option value="racaty" >Racaty</option><option value="senditcloud" >Sendit.cloud</option><option value="solidfiles" >Solidfiles</option><option value="streamable" >Streamable</option><option value="streamtape" >Streamtape</option><option value="upstream" >UpStream</option><option value="uqload" >Uqload</option><option value="videobin" >Videobin</option><option value="vidlox" >Vidlox</option><option value="vidoza" >Vidoza</option><option value="vupto" >VUP.to</option><option value="youtube" >Youtube</option></select>                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">https://drive.google.com/file/d/</span>
+                        </div>
+                        <input type="text" id="aid" name="aid" class="form-control" placeholder="Alternative Video ID" value="" onblur="getVideoId(this)">
+                        <div class="input-group-append">
+                            <span class="input-group-text">/view</span>
+                        </div>
+                    </div>
+                </div>
+                           <!--     <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <select name="lang" class="form-control" ><option value="Default" >Default</option><option value="Afrikanns" >Afrikanns</option><option value="Albanian" >Albanian</option><option value="Arabic" >Arabic</option><option value="Armenian" >Armenian</option><option value="Basque" >Basque</option><option value="Bengali" >Bengali</option><option value="Bulgarian" >Bulgarian</option><option value="Catalan" >Catalan</option><option value="Cambodian" >Cambodian</option><option value="Chinese" >Chinese</option><option value="Croatian" >Croatian</option><option value="Czech" >Czech</option><option value="Danish" >Danish</option><option value="Dutch" >Dutch</option><option value="English" >English</option><option value="Estonian" >Estonian</option><option value="Fiji" >Fiji</option><option value="Finnish" >Finnish</option><option value="French" >French</option><option value="Georgian" >Georgian</option><option value="German" >German</option><option value="Greek" >Greek</option><option value="Gujarati" >Gujarati</option><option value="Hebrew" >Hebrew</option><option value="Hindi" >Hindi</option><option value="Hungarian" >Hungarian</option><option value="Icelandic" >Icelandic</option><option value="Indonesian" >Indonesian</option><option value="Irish" >Irish</option><option value="Italian" >Italian</option><option value="Japanese" >Japanese</option><option value="Javanese" >Javanese</option><option value="Korean" >Korean</option><option value="Latin" >Latin</option><option value="Latvian" >Latvian</option><option value="Lithuanian" >Lithuanian</option><option value="Macedonian" >Macedonian</option><option value="Malay" >Malay</option><option value="Malayalam" >Malayalam</option><option value="Maltese" >Maltese</option><option value="Maori" >Maori</option><option value="Marathi" >Marathi</option><option value="Mongolian" >Mongolian</option><option value="Nepali" >Nepali</option><option value="Norwegian" >Norwegian</option><option value="Persian" >Persian</option><option value="Polish" >Polish</option><option value="Portuguese" >Portuguese</option><option value="Punjabi" >Punjabi</option><option value="Quechua" >Quechua</option><option value="Romanian" >Romanian</option><option value="Russian" >Russian</option><option value="Samoan" >Samoan</option><option value="Serbian" >Serbian</option><option value="Slovak" >Slovak</option><option value="Slovenian" >Slovenian</option><option value="Spanish" >Spanish</option><option value="Swahili" >Swahili</option><option value="Swedish" >Swedish</option><option value="Tamil" >Tamil</option><option value="Tatar" >Tatar</option><option value="Telugu" >Telugu</option><option value="Thai" >Thai</option><option value="Tibetan" >Tibetan</option><option value="Tonga" >Tonga</option><option value="Turkish" >Turkish</option><option value="Ukranian" >Ukranian</option><option value="Urdu" >Urdu</option><option value="Uzbek" >Uzbek</option><option value="Vietnamese" >Vietnamese</option><option value="Welsh" >Welsh</option><option value="Xhosa" >Xhosa</option></select>                        </div>
+                        <input type="text" name="sub" id="sub" class="form-control" placeholder="Subtitle Link (.srt/.vtt)" value="">
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-primary" data-tooltip="true" title="Upload Subtitle" data-toggle="modal" data-target="#modalUploadSub">
+                                <i class="fa fa-upload"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="form-group">
+                    <input type="text" id="poster" name="poster" class="form-control" placeholder="Poster Link (.jpg/.jpeg/.png/.webp)" value="">
+                </div> 
+                <div class="form-group text-center">
+                    <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+                    <input type="hidden" name="action" value="validate_captcha">
+                    <button id="submit" type="submit" class="btn btn-primary btn-block">
+                        <i class="fa fa-cog"></i>
+                        <span class="ml-2">Create Player</span>
+                    </button>
+                </div>
+            </form>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="url-tab" data-toggle="tab" href="#turl" role="tab" aria-controls="turl" aria-selected="true">Embed Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="embed-tab" data-toggle="tab" href="#tembed" role="tab" aria-controls="tembed" aria-selected="false">Embed Code</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="dl-tab" data-toggle="tab" href="#tdl" role="tab" aria-controls="tdl" aria-selected="false">Download Link</a>
+                </li>
+              <!--  <li class="nav-item">
+                    <a class="nav-link" id="req-tab" data-toggle="tab" href="#treq" role="tab" aria-controls="requrl" aria-selected="true">Request Link</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" id="json-tab" data-toggle="tab" href="#tjson" role="tab" aria-controls="jsonurl" aria-selected="true">RESTful API Request</a>
+                </li> -->
+            </ul> 
+            <div class="tab-content" id="myTabContent" class="mb-4">
+                <div class="tab-pane fade show active py-4" id="turl" role="tabpanel" aria-labelledby="url-tab">
+                    <textarea style="font-size:13px" id="txtEmbed" cols="30" rows="6" class="form-control" readonly></textarea>
+                </div>
+                <div class="tab-pane fade py-4" id="tembed" role="tabpanel" aria-labelledby="embed-tab">
+                    <textarea style="font-size:13px" id="txtEmbedCode" cols="30" rows="6" class="form-control" readonly>&lt;iframe src=&quot;&quot; frameborder=&quot;0&quot; allowFullScreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; width=&quot;640&quot; height=&quot;320&quot;&gt;&lt;/iframe&gt;</textarea>
+                </div>
+                <div class="tab-pane fade py-4" id="tdl" role="tabpanel" aria-labelledby="dl-tab">
+                    <textarea style="font-size:13px" id="txtDl" cols="30" rows="6" class="form-control" readonly></textarea>
+                </div>
+                <div class="tab-pane fade py-4" id="treq" role="tabpanel" aria-labelledby="req-tab">
+                    <textarea style="font-size:13px" id="txtReq" cols="30" rows="6" class="form-control" readonly></textarea>
+                </div>
+                <div class="tab-pane fade py-4" id="tjson" role="tabpanel" aria-labelledby="json-tab">
+                    <textarea style="font-size:13px" id="txtJson" cols="30" rows="6" class="form-control" readonly></textarea>
+                </div>
+            </div>
+                    </div>
+    </div>
+    <div class="row mt-4">
+    <div class="col-12">
+        <h2 class="h4" id="hostIDFormat">Retrieve ID from the video link</h2>
+        <p><small class="form-text text-muted">Video IDs are marked in red.</small></p>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Host Name</th>
+                        <th>Link Format</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>Direct Video/Playlist</td>
+                        <td>
+                            <span class="text-danger">
+                                https://weupload.xyz/007.mp4<br>
+                                https://cdn3.viblast.com/streams/hls/airshow/playlist.m3u8<br>
+                                https://s3.amazonaws.com/_bc_dml/example-content/sintel_dash/sintel_vod.mpd
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=drive.google.com"></td>
+                        <td>Google Drive</td>
+                        <td>https://drive.google.com/file/d/<span class="text-danger">1SJ73GGUbECKSKo0crIGjFRG8opz0lzKj</span>/edit<br>https://drive.google.com/open?id=<span class="text-danger">1SJ73GGUbECKSKo0crIGjFRG8opz0lzKj</span></td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=photos.google.com"></td>
+                        <td>Google Photos</td>
+                        <td>https://photos.google.com/share/<span class="text-danger">AF1QipNwnU5Lz8_VS0rj9NB9HU5suC0tNqawYe6wOA2E1_YcIyC-EvfSsCrwB5db3f8Zfw/photo/AF1QipM4KPqzVwAk8kUiRSNGp_nPyCuhSYbsJiWBaPZ9?key=eGswTGNLU2o0UUtkMVJLdUEwNTVLaUhueEdTNVpB</span><br>https://photos.google.com/share/<span class="text-danger">AF1QipNwnU5Lz8_VS0rj9NB9HU5suC0tNqawYe6wOA2E1_YcIyC-EvfSsCrwB5db3f8Zfw?key=eGswTGNLU2o0UUtkMVJLdUEwNTVLaUhueEdTNVpB</span></td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=www.blogger.com"></td>
+                        <td>Blogger</td>
+                        <td>https://www.blogger.com/video.g?token=<span class="text-danger">AD6v5dztESa7qH5wLsokzq8FkYdteKg1SEaEF8mhrLO2IdLwYunOdvYRaLOMAPTOO0k1XbQ3tEthtLlmTJeg8b6wjmjB6gwRd4h-nr1Wvziym94EE4V73CK6MENsls2k10_OkiMMFTRT</span></td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=youtube.com"></td>
+                        <td>Youtube</td>
+                        <td>https://www.youtube.com/watch?v=<span class="text-danger">qGCg15vg8ls</span><br>
+                        https://youtu.be/<span class="text-danger">qGCg15vg8ls</span></td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=facebook.com"></td>
+                        <td>Facebook</td>
+                        <td>https://www.facebook.com/<span class="text-danger">CasualGamerPH/videos/906489449780007/</span></td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=fembed.com"></td>
+                        <td>Fembed</td>
+                        <td><span class="text-danger">https://www.fembed.com/v/qgl1-fee-e-nrry</span><br>
+                        <span class="text-danger">https://www.fembed.com/f/qgl1-fee-e-nrry</span></td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=ok.ru"></td>
+                        <td>OK.ru</td>
+                        <td>https://ok.ru/video/<span class="text-danger">1726154213914</span><br>
+                        https://ok.ru/videoembed/<span class="text-danger">1726154213914</span></td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=onedrive.live.com"></td>
+                        <td>OneDrive</td>
+                        <td>https://onedrive.live.com/embed?resid=<span class="text-danger">2D375281D3105D45%2123209</span><br>
+                        https://onedrive.live.com/?cid=2D375281D3105D45&id=<span class="text-danger">2D375281D3105D45%2123209</span>&parId=2D375281D3105D45%21105&o=OneUp</td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=www.dropbox.com"></td>
+                        <td>Dropbox</td>
+                        <td>https://www.dropbox.com/s/<span class="text-danger">seap0x345nexifw</span>/007.mp4</td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=anonfiles.com"></td>
+                        <td>Anonfiles</td>
+                        <td>
+                            https://anonfiles.com/<span class="text-danger">d5EeOaBfo6</span><br>
+                            https://anonfiles.com/<span class="text-danger">d5EeOaBfo6</span>/SPECTRE_-_Official_Trailer_mp4
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=bayfiles.com"></td>
+                        <td>BayFiles</td>
+                        <td>
+                            https://bayfiles.com/<span class="text-danger">x8EbOcB5o7</span><br>
+                            https://bayfiles.com/<span class="text-danger">x8EbOcB5o7</span>/SPECTRE_-_Official_Trailer_mp4
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=clicknupload.co"></td>
+                        <td>Clicknupload</td>
+                        <td>https://clicknupload.co/<span class="text-danger">ninqt1zh316n</span></td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=clipwatching.com"></td>
+                        <td>ClipWatching</td>
+                        <td>
+                            https://clipwatching.com/<span class="text-danger">oy6ugqdnhx9t</span>.html<br>
+                            https://clipwatching.com/<span class="text-danger">oy6ugqdnhx9t</span>/SPECTRE_-_Official_Trailer.mp4.html<br>
+                            https://clipwatching.com/embed-<span class="text-danger">oy6ugqdnhx9t</span>.html
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=filerio.in"></td>
+                        <td>Filerio</td>
+                        <td>https://filerio.in/<span class="text-danger">scekmgkd6xr7</span>.html<br>
+                        https://filerio.in/embed-<span class="text-danger">scekmgkd6xr7</span>.html
+                        </td>
+                    </tr>
+                 <!--   <tr>
+                        <td><image src="//www.google.com/s2/favicons?domain=files.im"></td>
+                        <td>Files.im</td>
+                        <td>https://files.im/<span class="text-danger">x833jhj0ljj0</span><br>
+                        https://files.im/embed-<span class="text-danger">x833jhj0ljj0</span>.html
+                        </td>
+                    </tr> -->
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=gofile.io"></td>
+                        <td>Gofile</td>
+                        <td>https://gofile.io/d/<span class="text-danger">wd1eOB</span></td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=gounlimited.to"></td>
+                        <td>GoUnlimited.to</td>
+                        <td>https://gounlimited.to/embed-<span class="text-danger">go3t2854nrbw</span>.html<br>
+                        https://gounlimited.to/<span class="text-danger">go3t2854nrbw</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=hxfile.co"></td>
+                        <td>HxFile</td>
+                        <td>https://hxfile.co/<span class="text-danger">ml5nd4t6rg7d</span><br>
+                        https://hxfile.co/embed-<span class="text-danger">ml5nd4t6rg7d</span>.html</td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=indishare.org"></td>
+                        <td>IndiShare</td>
+                        <td>https://www.indishare.org/<span class="text-danger">b9uw5acg6gtp</span>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=mp4upload.com"></td>
+                        <td>mp4upload</td>
+                        <td>https://mp4upload.com/<span class="text-danger">llxx7gj4jav5</span><br>
+                        https://www.mp4upload.com/embed-<span class="text-danger">llxx7gj4jav5</span>.html</td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=mixdrop.to"></td>
+                        <td>MixDrop</td>
+                        <td>https://mixdrop.to/f/<span class="text-danger">knnndwnjipeqm8</span><br>
+                        https://mixdrop.to/e/<span class="text-danger">knnndwnjipeqm8</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=racaty.net"></td>
+                        <td>Racaty</td>
+                        <td>https://racaty.net/<span class="text-danger">nkb9x96yszao</span><br>
+                        https://racaty.net/embed-<span class="text-danger">nkb9x96yszao</span>.html
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=sendit.cloud"></td>
+                        <td>Sendit.cloud</td>
+                        <td>https://sendit.cloud/<span class="text-danger">7oruqwxjvym0</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=solidfiles.com"></td>
+                        <td>Solidfiles</td>
+                        <td>http://www.solidfiles.com/v/<span class="text-danger">MDKGX6pmNRNGW</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=streamable.com"></td>
+                        <td>Streamable</td>
+                        <td>
+                            https://streamable.com/<span class="text-danger">nqfrzj</span><br>
+                            https://streamable.com/e/<span class="text-danger">nqfrzj</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=streamtape.com"></td>
+                        <td>Streamtape</td>
+                        <td>https://streamtape.com/e/<span class="text-danger">BQbYadkyGoIr9q</span><br>
+                        https://streamtape.com/f/<span class="text-danger">BQbYadkyGoIr9q</span>
+                        </td>
+                    </tr>
+                <!--    <tr>
+                        <td><image src="//www.google.com/s2/favicons?domain=uploads.mobi"></td>
+                        <td>Uploads.mobi</td>
+                        <td>https://uploads.mobi/<span class="text-danger">ba33qlcrp463</span><br>
+                            https://uploads.mobi/embed-<span class="text-danger">ba33qlcrp463</span>.html
+                        </td>
+                    </tr> -->
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=upstream.to"></td>
+                        <td>UpStream</td>
+                        <td>https://upstream.to/embed-<span class="text-danger">d1fl3fks6nos</span>.html<br>
+                        https://upstream.to/<span class="text-danger">d1fl3fks6nos</span>.html
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=uqload.com"></td>
+                        <td>Uqload</td>
+                        <td>
+                            https://uqload.com/<span class="text-danger">tlf4hore8oag</span><br>
+                            https://uqload.com/embed-<span class="text-danger">tlf4hore8oag</span>.html
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=videobin.co"></td>
+                        <td>Videobin</td>
+                        <td>
+                            https://videobin.co/<span class="text-danger">g99tegjcjtva</span><br>
+                            https://videobin.co/embed-<span class="text-danger">g99tegjcjtva</span>.html
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=vidlox.me"></td>
+                        <td>Vidlox</td>
+                        <td>https://vidlox.me/<span class="text-danger">ar6uxuhqrrgu</span>.html<br>
+                        https://vidlox.me/embed-<span class="text-danger">ar6uxuhqrrgu</span>.html</td>
+                    </tr>
+                 <!--   <tr>
+                        <td><image src="//www.google.com/s2/favicons?domain=vidmoly.me"></td>
+                        <td>Vidmoly</td>
+                        <td>http://vidmoly.me/w/<span class="text-danger">cgqeqsm0u1ys</span><br>
+                        https://vidmoly.to/embed-<span class="text-danger">cgqeqsm0u1ys</span>.html</td>
+                    </tr> -->
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=vidoza.net"></td>
+                        <td>Vidoza</td>
+                        <td>https://vidoza.net/<span class="text-danger">psuogbc7pph1</span>/spectre_official_trailer<br>
+                        https://vidoza.net/<span class="text-danger">psuogbc7pph1</span>.html<br>
+                        https://vidoza.net/embed-<span class="text-danger">psuogbc7pph1</span>.html</td>
+                    </tr>
+                    <tr>
+                        <td><image src="http://www.google.com/s2/favicons?domain=vup.to"></td>
+                        <td>VUP.to</td>
+                        <td>https://vup.to/<span class="text-danger">llxx7gj4jav5</span>.html<br>
+                        https://vup.to/emb.html?<span class="text-danger">llxx7gj4jav5</span>=img.vup.to/56/01/00157/llxx7gj4jav5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>        </div>
+    <footer class="text-muted mb-3">
+        <div class="container">
+            <div class="row">
+              
+                <div class="col-12 py-2 text-center">&copy; 2020 weupload.xyz</div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="modalUploadSub" tabindex="-1" role="dialog" aria-labelledby="modalUploadSubLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalUploadSubLabel">Upload Subtitle</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="frmUploadSub" method="post" enctype="multipart/form-data">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="uploadSubFile" name="uploadSubFile">
+                            <label class="custom-file-label" for="uploadSubFile">Choose file</label>
+                        </div>
+                    </form>
+                    <div id="upsProgress" class="progress mt-2 d-none">
+                        <div id="uploadSubProgress" class="progress-bar active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                            <span class="sr-only">0%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" id="btnUploadSub" class="btn btn-primary" disabled>Upload Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/popper.min.js" defer></script>
+    <script src="assets/js/bootstrap.min.js" defer></script>
+    <script>
+        jQuery(document).ready(function($){
+            $('[data-tooltip=true]').tooltip();
+            var change_host = function($host, $id) {
+                var idpl = $id.attr('name') === 'id' ? 'Main Video ID' : 'Alternative Video ID';
+                var $prepend = $id.prev('.input-group-prepend').find('span');
+                var $append = $id.next('.input-group-append');
+
+                if ($host.val() === 'dropbox') {
+                    $append.hide();
+                    $prepend.text('https://www.dropbox.com/s/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'okru') {
+                    $append.hide();
+                    $prepend.text('https://okru.com/videoembed/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'uploadsmobi') {
+                    $append.show().find('span').text('.html');
+                    $prepend.text('https://uploads.mobi/embed-');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'vidoza') {
+                    $append.show().find('span').text('.html');
+                    $prepend.text('https://vidoza.net/embed-');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'onefichier') {
+                    $append.hide();
+                    $prepend.text('https://1fichier.com/?');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'filerio') {
+                    $append.show().find('span').text('.html');
+                    $prepend.text('https://filerio.in/embed-');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'userscloud') {
+                    $append.hide();
+                    $prepend.text('https://userscloud.com/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'hxfile') {
+                    $append.hide();
+                    $prepend.text('https://hxfile.co/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'gofile') {
+                    $append.hide();
+                    $prepend.text('https://gofile.io/d/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'solidfiles') {
+                    $append.hide();
+                    $prepend.text('http://www.solidfiles.com/v/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'mixdropto') {
+                    $append.hide();
+                    $prepend.text('https://mixdrop.to/e/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'onedrive') {
+                    $append.hide();
+                    $prepend.text('https://onedrive.live.com/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'gounlimitedto') {
+                    $append.show().find('span').text('.html');
+                    $prepend.text('https://gounlimited.to/embed-');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'mp4upload') {
+                    $append.hide();
+                    $prepend.text('https://mp4upload.com/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'clicknupload') {
+                    $append.hide();
+                    $prepend.text('https://clicknupload.co/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'indishare') {
+                    $append.hide();
+                    $prepend.text('https://indishare.org/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'filesim') {
+                    $append.hide();
+                    $prepend.text('https://files.im/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'racaty') {
+                    $append.hide();
+                    $prepend.text('https://racaty.net/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'vidmoly') {
+                    $append.hide();
+                    $prepend.text('https://vidmoly.to/w/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'vupto') {
+                    $append.show().find('span').text('.html');
+                    $prepend.text('https://vup.to/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'senditcloud') {
+                    $append.hide();
+                    $prepend.text('https://sendit.cloud/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'vidlox') {
+                    $append.show().find('span').text('.html');
+                    $prepend.text('https://vidlox.me/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'uqload') {
+                    $append.show().find('span').text('.html');
+                    $prepend.text('https://uqload.com/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'streamable') {
+                    $append.hide();
+                    $prepend.text('https://streamable.com/e/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'clipwatching') {
+                    $append.hide();
+                    $prepend.text('https://clipwatching.com/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'bayfiles') {
+                    $append.hide();
+                    $prepend.text('https://bayfiles.com/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'anonfile') {
+                    $append.hide();
+                    $prepend.text('https://anonfile.com/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'videobin') {
+                    $append.hide();
+                    $prepend.text('https://videobin.co/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'facebook') {
+                    $append.hide();
+                    $prepend.text('https://www.facebook.com/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'googlephotos') {
+                    $append.hide();
+                    $prepend.text('https://photos.google.com/share/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'fembed') {
+                    $append.hide();
+                    $prepend.text('Enter Link');
+                    $id.attr('placeholder', 'Enter the Fembed Link! Ex: https://www.fembed.com/v/123abc');
+                } else if ($host.val() === 'blogger') {
+                    $append.hide();
+                    $prepend.text('https://www.blogger.com/video.g?token=');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'youtube') {
+                    $append.hide();
+                    $prepend.text('https://www.youtube.com/watch/?v=');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'direct') {
+                    $append.hide();
+                    $prepend.text('Enter Link');
+                    $id.attr('placeholder', 'Enter the video Link! Ex: http://gdplayer.top/007.mp4');
+                } else if ($host.val() === 'streamtape') {
+                    $append.hide();
+                    $prepend.text('https://streamtape.com/e/');
+                    $id.attr('placeholder', idpl);
+                } else if ($host.val() === 'upstream') {
+                    $append.show().find('span').text('.html');
+                    $prepend.text('https://upstream.to/');
+                    $id.attr('placeholder', idpl);
+                } else {
+                    $append.show().find('span').text('/view');
+                    $prepend.text('https://drive.google.com/file/d/');
+                    $id.attr('placeholder', idpl);
+                }
+            };
+            $('select[name=host]').change(function() {
+                change_host($(this), $('#id'));
+            });
+            $('select[name=ahost]').change(function() {
+                change_host($(this), $('#aid'));
+            });
+                        $('#uploadSubFile').on('change',function(){
+                var fileName = $(this).val();
+                $(this).next('.custom-file-label').html(fileName);
+                $('#btnUploadSub').prop('disabled', false);
+            })
+            $('#frmUploadSub').on('submit', function(e){
+                e.preventDefault();
+
+                var fd = new FormData(); 
+                var files = $('#uploadSubFile')[0].files[0]; 
+
+                fd.append('media', files);
+
+                $('#upsProgress').removeClass('d-none');
+
+                $.ajax({
+                    xhr : function() {
+                        var xhr = new window.XMLHttpRequest();
+                        xhr.upload.addEventListener('progress', function(e){
+                            if(e.lengthComputable){                                
+                                var percent = Math.round((e.loaded / e.total) * 100);
+                                $('#uploadSubProgress').attr('aria-valuenow', percent).css('width', percent + '%').text(percent + '%');
+                            }
+                        });
+                        return xhr;
+                    },
+                    type : 'POST',
+                    url : './upload.php',
+                    data : fd,
+                    processData : false,
+                    contentType : false,
+                    success : function(response){
+                        $('#upsProgress').addClass('d-none');
+                        if(response.status == "fail"){
+                            alert(response.result);
+                        }
+                        else{
+                            $('#sub').val(response.result);
+                            $('#modalUploadSub').modal('hide');
+                        }
+                    }
+                });
+            });
+            $('#btnUploadSub').click(function(){
+                $('#frmUploadSub').trigger('submit');
+            });
+        });
+        function getVideoId(e){
+            $.ajax({
+                url: 'https://weupload.xyz//administrator/ajax/videos.ajax.php',
+                type: 'post',
+                data: {
+                    action: 'get_host_id',
+                    url: e.value
+                },
+                success: function(res){
+                    if(res.status === 'ok'){
+                        e.value = res.result;
+                    }
+                },
+                error: function(xhr) {
+                    swal("Error!", xhr.responseText, "error");
+                }
+            });
+        }
+    </script>
+    <script src="assets/js/scob.js" defer></script>
+<!--<script>(function(){"use strict";var devtools={open:false,orientation:null};var threshold=160;var emitEvent=function(state,orientation){window.dispatchEvent(new CustomEvent("devtoolschange",{detail:{open:state,orientation:orientation}}))};setInterval(function(){var widthThreshold=window.outerWidth-window.innerWidth>threshold;var heightThreshold=window.outerHeight-window.innerHeight>threshold;var orientation=widthThreshold?"vertical":"horizontal";if(!(heightThreshold&&widthThreshold)&&(window.Firebug&&window.Firebug.chrome&&window.Firebug.chrome.isInitialized||widthThreshold||heightThreshold)){if(!devtools.open||devtools.orientation!==orientation){emitEvent(true,orientation)}devtools.open=true;devtools.orientation=orientation}else{if(devtools.open){emitEvent(false,null)}devtools.open=false;devtools.orientation=null}},500);window.addEventListener("devtoolschange",function(e){if(e.detail.open){location.href="https://google.com"}})})();</script>-->
+    </body>
+
+
+<!-- Mirrored from weupload.xyz/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Aug 2020 15:49:46 GMT -->
+</html>
